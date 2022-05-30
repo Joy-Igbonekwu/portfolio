@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/j-logo.ico" type="image/x-icon">
+    <title>Joy Igbonekwu</title>
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed" style="z-index:15; width:100%;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand col-md-9"><img src="images/j-logo.jpg" style="width:50px; height:50px; margin-left:50px; border-radius:50%;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-md-3" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">
+                            <button type="button" class="btn btn-dark">Home</button>
+                        </a>
+                    </li>
+                    <li class="nav-item-dropdown">
+                        <a class="nav-link" href="portfolio.html">
+                            <button type="button" class="btn btn-light" id="portfolio">Portfolio</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="body position-relative">
+        <h4 class="position-absolute three animate fadeDown" id="intro" style="z-index:5;">Hi, I'm <span style="font-weight:bold;">Joy Igbonekwu</span></h4>
+        <h5 class="position-absolute one animate fadeIn" id="des" style="z-index:5;">Web Developer</h5>
+        <a href="#about"><button type="button" class="btn btn-outline-primary position-absolute two animate fadeUp" id="p-btn">View More About Me <i class="fa fa-angle-down"></i></button></a>
+    </div>
+
+    <div id="about"></div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+               <a href="http://www.istockphoto.com"><img src="images/images.jpeg" alt="" class="img-fluid image"></a> 
+            </div>
+            <div class="col-md-2"></div>        
+            <div class="col-md-6 four animate fadeRight my-3">
+                <h4 class="text-center">About <span style="font-weight:bolder;">Me</span></h4>
+                <p>I am a full stack developer with a bachelors degree in Computer Science and experience in critical thinking on user-centered solutions.</p>
+                <p>I acquired my programming skills through several months of intense certified training and practice. I have been opportuned to carry out many projects. Click <a href="images/CV_2022-05-29-054951.pdf" target="blank">here</a> to view my resume.</p>
+                <a href="#contact"><button type="button" class="btn btn-dark" style="border-radius:50px;">
+                    Contact Me
+                </button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row skills">
+            <div class="col-md-4">
+                <h4>My <span style="font-weight:bolder;">Skills</span></h4>
+            </div>
+            <div class="col-md-8">
+                <p>Front End Languages: CSS, HTML, JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:80%;">
+
+                    </div>
+                </div>
+                <p>Back End Languages: PHP, SQL, RESTful APIs</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:70%;">
+
+                    </div>
+                </div>
+                <p>Frameworks: Bootstrap, Laravel</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:80%;">
+
+                    </div>
+                </div>
+                <p>Databases: MySQL</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:90%;">
+
+                    </div>
+                </div>
+                <p>Others: Wordpress</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:60%;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h4 class="text-center">Why Choose <span style="font-weight:bolder;">Me?</span></h4>
+        <div class="row">
+            <div class="card-group my-3">
+                <div class="card mx-3 rounded four animate fadeLeft">
+                    <a href="https://www.istockphoto.com/photo/diverse-people-stacking-hand-together-gm1152125129-312457096" target="blank"><img src="images/teamwork.jpeg" class="card-img-top img-fluid rounded"></a>
+                    <div class="card-body">
+                        <h4 class="card-text text-center">Team player</h4>
+                    </div>
+                </div>
+                <div class="card mx-3 rounded two animate fadeUp">
+                    <a href="https://unsplash.com/s/photos/creativity" target="blank"><img src="images/creative.jpeg" class="card-img-top img-fluid rounded" style="height:240px;"></a>
+                    <div class="card-body">
+                        <h4 class="card-text text-center">Creative</h4>
+                    </div>
+                </div>
+                <div class="card mx-3 rounded five animate fadeRight">
+                    <a href="https://www.openbusinesscouncil.org/create-productive-environment-staff/" target="blank"><img src="images/productive.jpeg" class="card-img-top img-fluid rounded"></a>
+                    <div class="card-body">
+                        <h4 class="card-text text-center">Productive</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h4>Contact <span style="font-weight:bolder;">Me</span></h4>
+    </div>
+    <div class="container my-2 ">
+        <section class="contact py-5">
+            <div class="row">
+                <div class="col-md-4 text-center py-3" id="contact" style="border-right:1px solid #c0c0c0;">
+                    <i class="fa fa-phone" id="font"></i>
+                    <h3>Call Me</h3>
+                    <p>I am available 24/7</p>
+                    <var ><a href="tel:+2347069669008" id="italic">08160530217</a></var>
+                </div>
+                <div class="col-md-4 text-center py-3" style="border-right:1px solid #c0c0c0;">
+                    <i class="fa fa-envelope" id="font"></i>
+                    <h3>Email Me</h3>
+                    <p>Send me an email and I would do well to reply you</p>
+                    <var><a href="mailto:joykenneth605@gmail.com" id="italic">joykenneth605@gmail.com</a></var>
+                </div>
+                <div class="col-md-4 text-center py-3">
+                    <i class="fa fa-map-marker" id="font"></i>
+                    <h3>Visit Me</h3>
+                    <p>13, Wilisco Close, Taju Bello Bus-Stop </p>
+                    <var>Iju-Ishaga, Lagos State</var>
+                </div>
+            </div>
+        </section>       
+    </div>
+
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <ul class="list-inline">
+                        <li class="list-inline-item list"><i class="fa fa-git"></i></li>
+                        <li class="list-inline-item list"><i class="fa fa-twitter"></i></li>
+                        <li class="list-inline-item list"><i class="fa fa-facebook"></i></li>
+                        <li class="list-inline-item list"><i class="fa fa-whatsapp"></i></li>
+                    </ul>   
+                </div> 
+                <div class="text-center"><p>Copyright&copy; 2022 | Designed by Joy Igbonekwu</p></div>               
+            </div>           
+        </div>
+    </section>
+    
+    <!--<div class="wrapper">
+        <div class="box one animate fadeIn">
+            <p>Fade In</p>
+        </div>
+        <div class="box  two animate fadeUp">
+            <p>Fade Out</p>
+        </div>
+        <div class="box  three animate fadeDown">
+            <p>Fade Down</p>
+        </div>
+        <div class="box  four animate fadeLeft">
+            <p>Fade Left</p>
+        </div>
+        <div class="box  five animate fadeRight">
+            <p>Fade Right</p>
+        </div>
+    </div>-->
+
+
+    <script src="js2/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

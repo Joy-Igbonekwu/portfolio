@@ -1,0 +1,377 @@
+.body{
+    background:linear-gradient(rgb(240, 238, 238), rgb(59, 59, 59)); 
+    height:600px;
+    user-select:none;
+}
+#intro{
+    top:50%;
+    left:35%;
+    color:#fff;
+    font-size:40px;
+}
+#des{
+    top:60%;
+    left:43%;
+    color:#fff;
+    
+}
+#p-btn{
+    top:70%;
+    left:41.3%;
+    border:2px solid #fff;
+    color:#fff;
+}
+
+#font{
+    font-size:40px;
+}
+
+#portfolio:hover{
+    background:rgb(240, 238, 238);
+    color:#000;
+    border-radius:7px;
+}
+.contact{
+    box-shadow:10px 5px 12px 10px rgba(0,0,0,.4);
+    border-radius:3px;
+}
+.list{
+    font-size:30px;
+    padding-right:20px;
+}
+.skills{
+    margin-top:0px;
+}
+.skills p{
+    margin-top:8px;
+}
+.progress-bar{
+    background:rgb(37, 37, 37);
+}
+#italic{
+    text-decoration: none;
+    color:#000;
+}
+.bod{
+    height:150px;
+    background:linear-gradient(rgb(240, 238, 238), rgb(59, 59, 59)); 
+}
+#description{
+    top:40%;
+    left:40%;
+    color:#fff;
+}
+.footer{
+    background:rgb(240, 238, 238);
+    margin-top:30px;
+}
+
+.one{
+    -webkit-animation-delay: 1s;
+    animation-delay:1s;
+    -moz-animation-delay: 1s;
+
+}
+.two{
+    -webkit-animation-delay: 1.7s;
+    animation-delay:1.7s;
+    -moz-animation-delay:1.7s;
+}
+.three{
+    -webkit-animation-delay: 2.3s;
+    animation-delay:2.3s;
+    -moz-animation-delay:1.7s;
+}
+.four{
+    -webkit-animation-delay: 1s;
+    animation-delay:1s;
+    -moz-animation-delay:2.7s;
+}
+.five{
+    -webkit-animation-delay: 3.3s;
+    animation-delay:3.3s;
+    -moz-animation-delay:3.3s;
+}
+.animate{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-fill-mode:both;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.fadeIn{
+    -webkit-animation-name: fadeIn;
+    animation-name:fadeIn;
+}
+
+@-webkit-keyframes fadeUp{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeUp{
+    -webkit-animation-name: fadeUp;
+    animation-name:fadeUp;
+}
+
+@-webkit-keyframes fadeDown{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeDown{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeDown{
+    -webkit-animation-name: fadeDown;
+    animation-name:fadeDown;
+}
+
+@-webkit-keyframes fadeLeft{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeLeft{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeLeft{
+    -webkit-animation-name: fadeLeft;
+    animation-name:fadeLeft;
+}
+
+@-webkit-keyframes fadeRight{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeRight{
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeRight{
+    -webkit-animation-name: fadeRight;
+    animation-name:fadeRight;
+}
+
+/*Media responsiveness*/
+
+@media only screen and (max-width:300px){
+    #intro{
+        font-size:20px;
+        text-align:center;
+        left:20%;
+    }
+    #des{
+        width:100%;
+        left:24%;
+        margin-top:-10px;
+        
+    }
+    #p-btn{
+        left:28%;
+        margin-top:-15px;
+    }
+    .body{
+        height:500px;
+    }
+    .image{
+        display:none;
+    }
+}
+
+@media only screen and (min-width:301px) and (max-width:450px){
+    #intro{
+        font-size:20px;
+        top:45%;
+        left:25%;
+        width:100%;
+    }
+    #des{
+        left:33%;
+        margin-top:-30px;
+    }
+    #p-btn{
+        left:28%;
+        margin-top:-40px;
+    }
+    .body{
+        height:500px;
+    }
+    .image{
+        display:none;
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:600px){
+    #intro{
+        font-size:25px;
+        top:45%;
+        left:30%;
+        width:100%;
+    }
+    #des{
+        left:40%;
+        margin-top:-30px;
+    }
+    #p-btn{
+        left:34%;
+        margin-top:-40px;
+    }
+    .body{
+        height:500px;
+    }
+    .image{
+        display:none;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:649px){
+    #intro{
+        font-size:30px;
+        top:45%;
+        left:30%;
+        width:100%;
+    }
+    #des{
+        left:40%;
+        margin-top:-30px;
+    }
+    #p-btn{
+        left:34%;
+        margin-top:-40px;
+    }
+    .body{
+        height:500px;
+    }
+    .image{
+        display:none;
+    }
+}
+
+@media only screen and (min-width:650px) and (max-width:768px){
+    #intro{
+        font-size:30px;
+        top:45%;
+        left:30%;
+        width:100%;
+    }
+    #des{
+        left:38%;
+        margin-top:-30px;
+    }
+    #p-btn{
+        left:34%;
+        margin-top:-40px;
+    }
+    .body{
+        height:500px;
+    }
+    .image{
+        display:none;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    #intro{
+        font-size:35px;
+        top:45%;
+        left:33%;
+        width:100%;
+    }
+    #des{
+        left:45%;
+        margin-top:-30px;
+    }
+    #p-btn{
+        left:41%;
+        margin-top:-40px;
+    }
+    .body{
+        height:500px;
+    }
+    .image{
+        display:none;
+    }
+}
